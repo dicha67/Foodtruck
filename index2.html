@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/16d98a6886.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./simplelightbox.min.css">
+  <link rel="stylesheet" href="./main2.css">
+  <title>Foodcar</title>
+</head>
+<body id="home">
+  <div class="navbar">
+    
+      <a href="#" class="logo">Joke's Foodtruck</a>
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    
+  </div>
+
+  <!-- Showcase-->
+  <section class="section-a">
+    <div class="container">
+      <div>
+        <h1>Foods of the future</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem, voluptatum similique velit quia ipsa voluptas? Optio molestias quia sed.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <img src="./images/micheile-henderson-7NFwwp-vZk8-unsplash (1).jpg" alt="">
+    </div>
+  </section>
+
+  <!-- Overlay Text-->
+  <section id="about" class="section-b">
+    <div class="overlay">
+      <div class="section-b-inner">
+        <h3>Tasty Dishes</h3>
+        <h2>Dishes From Around The World</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis magni, vero a perferendis veritatis id quidem alias velit recusandae tempora.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery-->
+  <section class="section-c">
+    <div class="gallery">
+      <a href="./images/christiann-koepke-C2yH3zXzaP0-unsplash.jpg" class="big"><img src="./images/christiann-koepke-C2yH3zXzaP0-unsplash.jpg" alt=""/></a>
+      <a href="./images/christine-siracusa-vzX2rgUbQXM-unsplash.jpg" class="big"><img src="./images/christine-siracusa-vzX2rgUbQXM-unsplash.jpg" alt=""/></a>
+      <a href="./images/dipesh-gurav-wGuvmCfo4bs-unsplash.jpg" class="big"><img src="./images/dipesh-gurav-wGuvmCfo4bs-unsplash.jpg" alt=""/></a>
+      <a href="./images/hessam-hojati-M4hazNIyTsk-unsplash.jpg" class="big"><img src="./images/hessam-hojati-M4hazNIyTsk-unsplash.jpg" alt=""/></a>
+      <a href="./images/joseph-gonzalez-hTR1XPtTo_k-unsplash.jpg" class="big"><img src="./images/joseph-gonzalez-hTR1XPtTo_k-unsplash.jpg" alt=""/></a>
+      <a href="./images/micheile-henderson-Hn_GXIIoJ5s-unsplash.jpg" class="big"><img src="./images/micheile-henderson-Hn_GXIIoJ5s-unsplash.jpg" alt=""/></a>
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer id="contact" class="section-footer">
+    <div class="container">
+      <div>
+        <h2>Lorem ipsum dolor sit</h2>
+        <a href="http://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="http://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="http://youtube.com"><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <div>
+        <h3>Company Info</h3>
+        <ul>
+          <li><a href="#">All Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Blog Posts</h3>
+        <ul>
+        <li><a href="#">Lorem, ipsum dolor</a></li>
+        <li><a href="#">Lorem, ipsum dolor</a></li>
+        <li><a href="#">Lorem, ipsum dolor</a></li>
+        <li><a href="#">Lorem, ipsum dolor</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Subscribe</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <form name="email-form" method="POST" data-netlify="true">
+          <div class="email-form">
+            <span class="form-control-wrap">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                size="40"
+                class="form-control"
+                placeholder="Email"
+                />
+            </span>
+            <button type="submit" class="form-control submit">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="./simple-lightbox.min.js"></script>
+  <script>
+  $(function() {
+    const $gallery = $('.gallery a').simpleLightbox();
+  });
+  </script>
+</body>
+</html>
